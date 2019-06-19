@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/flipping-an-image/;
 //832. Flipping an Image
-
+//O(N)^2
 class FlipImage
 {
     public static int[][] flipAndInvertImage(int[][] A) {
