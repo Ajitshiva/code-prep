@@ -60,3 +60,11 @@ class Dischar
 
     }
 }
+/*
+PS C:\Users\Anonymous\code-prep> java Dischar
+6
+laptop
+5
+anonymous
+6
+*/
