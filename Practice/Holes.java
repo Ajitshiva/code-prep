@@ -9,8 +9,8 @@ class Holes
        String words[] = new String[t];
        for(int j=0;j<t;j++)
        {
-           Scanner st = new Scanner(System.in);
-           words[j]=st.nextLine();
+          
+           words[j]=sc.next();
        }
        for(int j=0;j<t;j++)
        {

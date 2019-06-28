@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RmOuterParentheses",
+            "request": "launch",
+            "mainClass": "RmOuterParentheses"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ToLower",
+            "request": "launch",
+            "mainClass": "ToLower"
+        }
+    ]
+}

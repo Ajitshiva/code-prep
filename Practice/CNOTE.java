@@ -1,3 +1,6 @@
+/*
+https://www.codechef.com/problems/CNOTE
+*/
 import java.util.Scanner;
 class CNOTE
 {
@@ -31,3 +34,17 @@ class CNOTE
         }
     }
 }
+/*
+3 1 2 2
+3 4
+2 2
+LUCKYCHEF
+3 1 2 2
+2 3
+2 3
+UNLUCKYCHEF
+3 1 2 2
+1 1
+1 2
+UNLUCKYCHEF
+*/
