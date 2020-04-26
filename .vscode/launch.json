@@ -1,16 +1,23 @@
 {
     "configurations": [
         {
-            "type": "java",
-            "name": "CodeLens (Launch) - RmOuterParentheses",
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
             "request": "launch",
-            "mainClass": "RmOuterParentheses"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - ToLower",
-            "request": "launch",
-            "mainClass": "ToLower"
-        }
+            "program": "${workspaceFolder}/Practice/Bheem",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },   
     ]
 }
