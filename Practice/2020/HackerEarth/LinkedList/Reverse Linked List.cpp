@@ -78,7 +78,7 @@ int LinkedList::getMiddle(Node* head)
 }
 int main()
 {
-	freopen("output.txt", "w", stdout);
+	//freopen("output.txt", "w", stdout);
 	LinkedList* ll = new LinkedList();
 	ll->addNode(10);
 	ll->addNode(20);
